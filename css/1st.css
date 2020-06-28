@@ -76,7 +76,7 @@ hr{
 	max-width: 100%;
 	padding-bottom: 7%;
 }
-.gallery img:hover{
+ .gallery img:hover{
 	filter: grayscale(100%);
 	transform: scale(1.1);
 }
@@ -86,4 +86,12 @@ hr{
 }
 .about{
 	border: 1px solid black;
+}
+.nav-item a:hover{
+	color: #3bec63;
+	opacity: 1;
+}
+.navbar-nav li a:hover{
+	color: #3bec63 !important;
+	font-weight: 1000;
 }
