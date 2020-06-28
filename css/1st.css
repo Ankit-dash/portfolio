@@ -87,11 +87,12 @@ hr{
 .about{
 	border: 1px solid black;
 }
-.nav-item a:hover{
-	color: #3bec63;
-	opacity: 1;
-}
-.navbar-nav li a:hover{
+
+.active,.navbar-nav li a:hover{
 	color: #3bec63 !important;
 	font-weight: 1000;
+}
+.disabled{
+	color:red !important;
+	background-color: yellow;
 }
