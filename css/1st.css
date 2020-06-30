@@ -79,6 +79,7 @@ hr{
  .gallery img:hover{
 	filter: grayscale(100%);
 	transform: scale(1.1);
+	transition: 1s;
 }
 .abt{
 	border-radius: 5px 5px 5px 5px;
