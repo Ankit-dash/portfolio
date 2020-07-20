@@ -2,6 +2,9 @@ body{
 	font-family: sans-serif;
 	background-image: linear-gradient(to right,#565353,#0c0c0c);	
 }
+.row-content {
+  border-bottom: 1px solid black;}
+
 #nav-bar
 {
 	position: sticky;
@@ -88,11 +91,13 @@ hr{
 	border-radius: 5px 5px 5px 5px;
 	margin: 2%;
 }
-.about{
-	border: 1px solid black;
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
 }
-
-.active,.navbar-nav li a:hover{
+.navbar-nav li a:hover{
 	color: #3bec63 !important;
 	font-weight: 1000;
 }
