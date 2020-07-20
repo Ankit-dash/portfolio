@@ -3,7 +3,9 @@ body{
 	background-image: linear-gradient(to right,#565353,#0c0c0c);	
 }
 .row-content {
-  border-bottom: 1px solid black;}
+  border-bottom: 1px solid black;
+  padding-bottom: 10px
+}
 
 #nav-bar
 {
@@ -104,4 +106,7 @@ hr{
 .disabled{
 	color:red !important;
 	background-color: yellow;
+}
+.about{
+	border: 1px solid black;
 }
